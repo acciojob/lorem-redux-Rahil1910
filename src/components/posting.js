@@ -1,16 +1,11 @@
-import InitialState from "./InitialState"
-
-const Reducers = (state=InitialState,action) =>{
-
-  switch (action.type) {
-    case 'UPDATE':
-  return action.post
+import React from 'react'
  
-  
-    default:
-    return state
-  }
-}
+const  Poster = ({title,body}) =>
+<li>
+       <div className='title'><strong>Title</strong> :{title}</div>
+       <br/>
+       <div className='body'><strong>Body</strong> :{body}</div>
 
+</li>
 
-export default Reducers;
+export default Poster;
