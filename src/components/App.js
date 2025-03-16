@@ -1,12 +1,11 @@
+import DisplayData from './displayData';
+import './App.css'
 
-import React from "react";
-import './../styles/App.css';
-
-const App = () => {
+function App() {
   return (
-    <div>
-        {/* Do not remove the main div */}
-    </div>
+    <>
+      <DisplayData></DisplayData>
+    </>
   )
 }
 
