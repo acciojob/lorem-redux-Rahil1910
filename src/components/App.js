@@ -1,5 +1,4 @@
 import DisplayData from './displayData';
-import './App.css'
 
 function App() {
   return (
